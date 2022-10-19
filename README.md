@@ -1,6 +1,6 @@
 # Launch-X-Practicas
 
-Practicas Realizadas en el curso
+Practicas realizadas en el curso
 
 ## Introducción ##
 
