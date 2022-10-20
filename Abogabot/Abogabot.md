@@ -86,3 +86,18 @@
 - [***Usuario***](./Imagenes/UI/UsuarioUI.md)  
 
 - [***Admin***](./Imagenes/UI/AdminUI.md)  
+
+***PC***
+
+- ***Pantalla Inicio***
+<img src="./Imagenes/UIPC/PaginaInicio.png" width="300">
+
+- ***Iniciar Sesión***
+<img src="./Imagenes/UIPC/LoginUsuario.png" width="300">
+
+- ***Nuevo Usuario-Admin***
+<img src="./Imagenes/UIPC/NuevoUsuario.png" width="300">
+
+- [***UsuarioPC***](./Imagenes/UIPC/UsuarioUIPC.md)  
+
+- [***AdminPC***](./Imagenes/UIPC/AdminUIPC.md)
