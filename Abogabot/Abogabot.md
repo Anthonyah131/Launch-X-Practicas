@@ -90,7 +90,7 @@
 ***PC***
 
 - ***Pantalla Inicio***
-<img src="./Imagenes/UIPC/PaginaInicio.png" width="300">
+<img src="./Imagenes/UIPC/PantallaInicio.png" width="300">
 
 - ***Iniciar Sesión***
 <img src="./Imagenes/UIPC/LoginUsuario.png" width="300">
