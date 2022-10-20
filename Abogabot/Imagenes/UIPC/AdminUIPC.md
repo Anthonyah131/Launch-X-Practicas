@@ -10,7 +10,7 @@
 <img src="./Admin/ConfigurarAdmin.png" width="300">
 
 ## ***Ver Demandas Admin***
-<img src="./Admin/VerDemandasAdmin.png" width="300">
+<img src="./Admin/VerDemandasUsuario.png" width="300">
 
 ## ***Estado Demanda Admin***
-<img src="./Admin/EstadoDemandaAdmin.png" width="300">
+<img src="./Admin/EstadoDemandaUsuario.png" width="300">
