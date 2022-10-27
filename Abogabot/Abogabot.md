@@ -90,13 +90,13 @@
 ***PC***
 
 - ***Pantalla Inicio***
-<img src="./Imagenes/UIPC/PantallaInicio.png" width="300">
+<img src="./Imagenes/UIPC/PantallaInicio.png">
 
 - ***Iniciar Sesión***
-<img src="./Imagenes/UIPC/LoginUsuario.png" width="300">
+<img src="./Imagenes/UIPC/Login.png">
 
 - ***Nuevo Usuario-Admin***
-<img src="./Imagenes/UIPC/NuevoUsuario.png" width="300">
+<img src="./Imagenes/UIPC/NuevoPerfil.png">
 
 - [***UsuarioPC***](./Imagenes/UIPC/UsuarioUIPC.md)  
 
