@@ -1,0 +1,109 @@
+body {   /*Cuerpo*/
+    margin: 0px;
+    background-color: #ffffff;
+    font-family: 'Verdana';
+    
+}
+
+.page-nav { /*Titulo*/
+    background-color: #ebae2b;
+    border: 1px solid black;
+    color: #000000;
+    position: relative;
+}
+
+.page-nav h1 {
+    margin: 20px;
+}
+
+.page-content { /*Contenedor de productos*/
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.product-container { /*Productos*/
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: #73deec;
+    scroll-snap-align: center;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-container img {
+    border-radius: 15px;
+    width: 250px;
+}
+
+.product-container h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.footer { /*Final pagina*/
+    background-color: #ebae2b;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/*Botones*/
+
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.button-add { /*Agregar al carrito*/
+    background-color: white;
+    color: black;
+    border: 2px solid #579fa8;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+  
+.button-add:hover {
+    background-color: #579fa8;
+    color: white;
+}
+
+.button-checkout { /*Pagar*/
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA; /* Blue */
+    transition-duration: 0.4s;
+    bottom: 15px;
+}
+
+.button-checkout:hover {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+
+.button--checkout {
+    display: flex;
+    justify-content: center;
+}
+
+/*Formulario*/
+
+.page-Formulario {
+    display: grid;
+    place-content: center;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}

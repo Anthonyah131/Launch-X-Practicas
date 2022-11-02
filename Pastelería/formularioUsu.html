@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleUsu.css" />
+    <title>Práctica 2 Prueba</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link href='https://fonts.googleapis.com/css?family=Trispace' rel='stylesheet'>
+</head>
+<body>
+    <header class="page-nav">
+        <img src="Imagenes/LosMejoresPastelesSinFondo.png" width="200px">
+        <h1>Mi Pastelería</h1>
+        <a href="paginaPrincipalUsu.html" target="_parent"><button class="button-admin">Inicio</button></a>
+    </header>
+
+    <center><h2 class="h2-Formulario">Fomulario</h2></center>
+    <form class="page-Formulario">
+        <section class="section-texto">
+            <label for="NombreC">Nombre:</label><br>
+            <input type="text" id="NombreC" name="Nombre Cliente" class="input-texto"><br><br>
+
+            <label for="tel1">Teléfono:</label><br>
+            <input type="tel" id="tel1" name="tel1" maxlength="8" class="input-texto"><br><br>
+
+            <label for="correo1">Correo electrónico:</label><br>
+            <input type="email" id="correo1" name="correo1" class="input-texto"><br><br>
+        </section>
+        
+        
+        <h2>¡¡Elige los sabores que más te gusten!!</h2>
+        <p>Maximo 3 sabores</p>
+
+        <section class="section-chbox">
+            <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+            <label for="Chocolate">Chocolate</label>
+            <br>
+            <input type="checkbox" id="Fresa" name="Fresa" value="Fresa">
+            <label for="Fresa">Fresa</label>
+            <br>
+            <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla">
+            <label for="Vainilla">Vainilla</label>
+            <br>
+            <input type="checkbox" id="Manzana" name="Manzana" value="Manzana">
+            <label for="Manzana">Manzana</label>
+            <br>
+            <input type="checkbox" id="Dulce" name="Dulce" value="Dulce">
+            <label for="Dulce">Dulce</label>
+        </section>
+        
+
+        <h2>¡¡Decoralo a tu gusto!!</h2>
+
+        <section>
+            <input type="checkbox" id="Frutas" name="Frutas" value="Frutas">
+            <label for="Frutas">Frutas</label>
+            <br>
+            <input type="checkbox" id="Dibujos" name="Dibujos" value="Dibujos">
+            <label for="Dibujos">Dibujos</label>
+            <br>
+            <input type="checkbox" id="Palabras" name="Palabras" value="Palabras">
+            <label for="Palabras">Palabras</label>
+        </section>
+        
+        <br>
+
+        <label for="des">Descripción general del pastel:</label><br>
+        <p><textarea class="txa-comment" name="comment" id="des" cols="60" rows="10"></textarea></p>
+
+        <button type="submit">Enviar Pedido</button>
+    </form>
+
+    <footer class="footer">
+        <img src="Imagenes/LosMejoresPastelesSinFondo.png" height="200px">
+        <table id="table-footerid" class="table-footer">
+            <tr class="tr-footer">
+                <th>Contacto</th>
+                <th>Ayuda</th>
+            </tr>
+            <tr class="tr-footer">
+                <td>Mipasteleria@gmail.com</td>
+                <td>Soporte</td>                
+            </tr>
+            <tr class="tr-footer">
+                <td>+506 1234 5678</td>
+                <td>Novedades</td>                
+            </tr>
+            <tr class="tr-footer">
+                <td><img src="Imagenes/toppng.com-iconos-de-redes-sociales-571x132.png" width="100px"></td>
+                <td>Preguntas Frecuentes</td>                
+            </tr>
+        </table>
+    </footer>
+</body>
