@@ -5,4 +5,4 @@ estilo CSS y una imegenes de referencia.
 
 ***El link del sitio web de practica***
 
-[Mi Pastlería(https://mipasteleriapractica.000webhostapp.com/paginaPrincipalUsu.html)]
+[[Mi Pastlería](https://mipasteleriapractica.000webhostapp.com/paginaPrincipalUsu.html)]
