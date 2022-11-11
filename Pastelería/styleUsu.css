@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+body{
+    margin: 0px;
+    background-color: #ffffff;
+    font-family: 'Trispace';
+}
+
+button {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #a42b3e;
+    border-radius: 6px;
+    border: 2px solid #e0434f;
+}
+
+button:hover {
+    color: #a42b3e;
+    background-color: #ffffff;
+}
+
+.page-nav { /*Titulo*/
+    font-family: 'Sofia';
+    background-color: #e0434f;
+    height: auto;
+    border-radius: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-productos {
+    display: flexbox;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.section-productos h2 {
+    font-family: 'Sofia';
+    font-size: 30px;
+    padding: 25px;
+}
+
+.page-content { /*Contenedor de productos*/
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    justify-content: space-between;
+    border-radius: 50px;
+    background-color: #e0434f;
+
+}
+
+.page-content::-webkit-scrollbar {
+	width: 12px;
+    border-radius: 10px;
+}
+
+.page-content::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #a42b3e;
+}
+
+.product-container { /*Productos*/
+    text-align: center;
+    scroll-snap-align: center;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 2px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    min-height: 250px;
+}
+
+.product-container:hover {
+    background-color: #ffffffbb;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-container img {
+    border-radius: 15px;
+    width: 250px;
+}
+
+.button--checkout {
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0434f;
+}
+
+.section-ubicacion {
+    padding: 25px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0434f;
+}
+
+.section-ubicacion h2 {
+    font-family: 'Sofia';
+    font-size: 30px;
+    padding: 15px;
+}
+
+.tr-ubicacion th, .tr-ubicacion td {
+    border-style: double;
+    border-color: #a42b3e;
+    border-width: 5px;
+    padding: 10px;
+}
+
+.footer {    
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e0434f;
+}
+
+.table-footer {
+    border-collapse: separate;
+    border-spacing: 100px 0px;
+}
+
+.tr-footer th {
+    font-size: 25px;
+}
+
+.tr-footer th, .tr-footer td{
+    border-style: none;
+}
+
+@media (max-width: 450px) {
+
+    .footer img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .table-footer {
+        border-collapse: separate;
+        border-spacing: 0px 0px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+    .tr-footer th {
+        font-size: 15px;
+    }
+
+    .tr-footer img{
+        width: 50px;
+        height: 20px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 950px) {
+
+    .footer img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .table-footer {
+        border-collapse: separate;
+        border-spacing: 50px 0px;
+    }
+
+    .footer {
+        font-size: 15px;
+    }
+
+    .tr-footer th {
+        font-size: 25px;
+    }
+
+    .tr-footer img{
+        width: 70px;
+        height: 20px;
+    }
+}
+
+/*FORMULARIO*/
+
+.page-Formulario {
+    border-radius: 25px;
+    padding: 25px;
+    background-color: #e0434f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2-Formulario {
+    font-family: 'Sofia';
+    font-size: 50px;
+    padding: 15px;
+}
+
+.input-texto {
+    background-color: #e0434f;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.678);
+}
+
+.txa-comment {
+    background-color: #e0434f;
+    border: 2px solid rgba(0, 0, 0, 0.678);
+}
+
+@media (max-width: 450px) {
+
+    .txa-comment {
+        height: 10em;
+        width: 25em;
+    }
+}
