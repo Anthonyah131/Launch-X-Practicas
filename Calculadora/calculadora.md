@@ -6,4 +6,4 @@
 
 Link de la calculadora
 
-[Calculadora](https://htmlpreview.github.io/?https://github.com/Anthonyah131/Launch-X-Practicas/blob/main/Pokedex/Pokedex.html)
+[Calculadora](https://htmlpreview.github.io/?https://github.com/Anthonyah131/Launch-X-Practicas/blob/main/Calculadora/calculadora.html)
