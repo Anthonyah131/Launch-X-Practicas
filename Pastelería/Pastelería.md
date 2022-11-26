@@ -14,4 +14,4 @@
 
 ## ***El link del sitio web de practica***
 
-[Mi Pastelería](https://mipasteleriapractica.000webhostapp.com/paginaPrincipalUsu.html)
+[Mi Pastelería]([https://mipasteleriapractica.000webhostapp.com/paginaPrincipalUsu.html](https://htmlpreview.github.io/?https://github.com/Anthonyah131/Launch-X-Practicas/blob/main/Pasteler%C3%ADa/paginaPrincipalUsu.html))
