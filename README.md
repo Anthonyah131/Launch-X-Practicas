@@ -19,3 +19,7 @@ Practicas realizadas en el curso
 - [Pokedex](/Pokedex/Pokedex.md)
 
 - [Calculadora](/Calculadora/calculadora.md)
+
+## Fundamentos de React.js ##
+
+- [Calculadora-React](https://github.com/Anthonyah131/Calculadora-React.git)
