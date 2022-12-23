@@ -23,3 +23,5 @@ Practicas realizadas en el curso
 ## Fundamentos de React.js ##
 
 - [Calculadora-React](https://github.com/Anthonyah131/Calculadora-React.git)
+
+- [Pokedex-React](https://github.com/Anthonyah131/PokedexReact.git)
