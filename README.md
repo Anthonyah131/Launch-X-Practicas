@@ -25,3 +25,7 @@ Practicas realizadas en el curso
 - [Calculadora-React](https://github.com/Anthonyah131/Calculadora-React.git)
 
 - [Pokedex-React](https://github.com/Anthonyah131/PokedexReact.git)
+
+## Backend con Node.js
+
+- [Batalla-Naval](https://github.com/Anthonyah131/BarcosMultijugador)
