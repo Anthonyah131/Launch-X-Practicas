@@ -20,11 +20,13 @@ Practicas realizadas en el curso
 
 - [Calculadora](/Calculadora/calculadora.md)
 
-## Fundamentos de React.js ##
+## React.js ##
 
 - [Calculadora-React](https://github.com/Anthonyah131/Calculadora-React.git)
 
 - [Pokedex-React](https://github.com/Anthonyah131/PokedexReact.git)
+
+- [Todo-React](https://github.com/Anthonyah131/todo-react)
 
 ## Backend con Node.js
 
