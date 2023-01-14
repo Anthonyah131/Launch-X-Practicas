@@ -31,3 +31,7 @@ Practicas realizadas en el curso
 ## Backend con Node.js
 
 - [Batalla-Naval](https://github.com/Anthonyah131/BarcosMultijugador)
+
+## Bases de NoSQL
+
+- [Todo-Cosmos](https://github.com/Anthonyah131/todo-cosmos)
