@@ -32,6 +32,8 @@ Practicas realizadas en el curso
 
 - [Batalla-Naval](https://github.com/Anthonyah131/BarcosMultijugador)
 
+- [Chat-Node](https://github.com/Anthonyah131/ChatNode)
+
 ## Bases de NoSQL
 
 - [Todo-Cosmos](https://github.com/Anthonyah131/todo-cosmos)
